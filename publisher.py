@@ -6,7 +6,7 @@ import random
 # --- Configurações do MQTT ---
 BROKER_ADDRESS = "broker.hivemq.com"
 BROKER_PORT = 1883
-TOPIC = "inversores/id_001/telemetria"
+TOPIC = "inversores/id_001/telemetria"  # pode escolher outro tópico
 
 print(f"Conectando ao Broker: {BROKER_ADDRESS}...")
 
